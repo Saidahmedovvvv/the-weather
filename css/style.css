@@ -12,6 +12,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin-top: 50px;
+  padding: 0 20px;
 }
 .package {
   display: flex;
