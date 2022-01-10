@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  margin-top: 50px;
+}
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding: 20px 50px;
+  border: 1px solid green;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.package > * {
+  /* margin-bottom: 20px; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+.package > *:nth-child(2) {
+  background-color: orange;
+}
+.package > *:nth-child(4) {
+  background-color: orangered;
+}
+.city-name {
+  text-transform: uppercase;
+
+  font-weight: 900;
+}
+.deg {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.weather {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
