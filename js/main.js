@@ -1,4 +1,4 @@
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Grozny,RU&units=metric&appid=a77b9f2616cdc1cc9b61a0aa0ba72e5f')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Grozny&units=metric&appid=a77b9f2616cdc1cc9b61a0aa0ba72e5f')
   .then(function (resp) {
     return resp.json()
   })
